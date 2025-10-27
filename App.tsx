@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 // --- Icon Components ---
@@ -137,7 +136,7 @@ const Services: React.FC = () => {
         {
             icon: <MiceIcon className="w-8 h-8"/>,
             title: "Grup & MICE Organizasyonları",
-            description: "Toplantı, teşvik gezileri ve kongreler... Alanında uzman ekibimizle tüm etkinliklerinizi titizlikle planlıyor, unutmaz anlara imza atıyoruz."
+            description: "Toplantı, teşvik gezileri ve kongreler... Alanında uzman ekibimizle tüm etkinliklerinizi titizlikle planlıyor, unutulmaz anlara imza atıyoruz."
         },
         {
             icon: <VisaIcon className="w-8 h-8"/>,
@@ -192,18 +191,14 @@ const Footer: React.FC = () => (
 
 const App: React.FC = () => {
   return (
-    <div className="relative h-screen w-screen flex flex-col items-center justify-center text-center text-white bg-hero-pattern bg-cover bg-center">
-        <div className="absolute inset-0 bg-black/60"></div>
-        <div className="relative z-10 p-6 flex flex-col items-center">
-          <img
-            src="https://www.seyahat.net/wp-content/uploads/2025/10/Seyahatnet-Kurumsal-Logo.png"
-            alt="Seyahat.net Logo"
-            className="h-28 md:h-32 w-auto mb-8"
-          />
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
-            Çok Yakında Hizmetinizdeyiz
-          </h1>
-        </div>
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <main className="flex-grow">
+        <Hero />
+        <Services />
+        <CTA />
+      </main>
+      <Footer />
     </div>
   );
 };
