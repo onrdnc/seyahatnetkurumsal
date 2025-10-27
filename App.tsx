@@ -83,7 +83,7 @@ const Hero: React.FC = () => (
         Kurumsal Seyahat Çözümleri
       </h1>
       <p className="text-lg md:text-xl max-w-3xl mx-auto text-slate-200">
-        Kurumsal seyahatlerinizin her adımında yanınızdayız. Uçak, otel, araç kiralama, transfer, toplantı ve etkinlik organizasyonları dahil tüm seyahat ihtiyaçlarınız için global iş ortaklarımızla güvenilir ve profesyonel çözümler sağlıyoruz.
+        Kurumsal seyahatlerinizin her adımında yanınızdayız. Uçak bileti, otel rezervasyonu, araç kiralama, transfer, toplantı ve etkinlik organizasyonları dahil tüm seyahat ihtiyaçlarınız için global iş ortaklarımızla güvenilir ve profesyonel çözümler sağlıyoruz.
         Siz sadece işinize odaklanın, gerisini biz planlayalım.
       </p>
       <a
